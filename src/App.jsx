@@ -1,11 +1,15 @@
 import './App.css';
+import Login from './components/Login';
+import Search from './components/Search';
+import Todos from './components/Todos';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <h1>Hello world</h1>
+    <div className="App container">
+      <h1>React</h1>
+      {/* <Search /> */}
+      <Login />
+      {/* <Todos /> */}
     </div>
   );
 }
